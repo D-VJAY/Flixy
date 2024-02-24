@@ -1,0 +1,14 @@
+.Vouter{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+     background-color: blueviolet; 
+}
+
+.Vplayer{
+    margin-top: 10vh;
+    width: 100vw; 
+    height: 90vh;
+    object-fit: fill;
+    position: fixed;
+}

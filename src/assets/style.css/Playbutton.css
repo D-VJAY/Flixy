@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.playpage{
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 20px;
+     border: 1px solid black; 
+    border-radius: 5px;
+    width: 50px;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+}
+
+.navlink{
+    text-decoration: none;
+}
+.playbutton{
+
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px;
+    /* // color: white; */
+    background-color: red;
+    font-weight: bold;
+    border: 1px;
+    height: 25px;
+    border-radius: 6px;
+
+}
+
+.playbutton:hover{
+    color: white;
+    background-color: black;
+     border:1px solid white;
+    cursor: pointer;
+}
+
+

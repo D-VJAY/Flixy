@@ -1,0 +1,18 @@
+.watchlaterbutton{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border: 1px;
+    height: 25px;
+    border-radius: 6px;
+
+}
+
+.watchlaterbutton:hover{
+    background-color: black;
+    border:1px solid white;
+    cursor: pointer;
+}

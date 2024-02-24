@@ -1,0 +1,92 @@
+[
+    {
+        "_id": 1,
+        "title": "Attack on Titans...",
+        "imgsrc": "data/Attack_On_Titans.jpg",
+        "vidsrc": "data/attack_on_titan.mp4"
+    },
+    {
+        "_id": 2,
+        "title": "Batman",
+        "imgsrc": "data/Batman.jpg",
+        "vidsrc": "data/batman.mp4"
+    },
+    {
+        "_id": 3,
+        "title": "Demon Slayer",
+        "imgsrc": "data/Demon_Slayer.jpg",
+        "vidsrc": "data/demon_slayer.mp4"
+    },
+    {
+        "_id": 4,
+        "title": "Interstellar...",
+        "imgsrc": "data/Interstellar.jpg",
+        "vidsrc": "data/interstellar.mp4"
+    },
+    {
+        "_id": 5,
+        "title": "JOKER",
+        "imgsrc": "data/joker.jpg",
+        "vidsrc": "data/joker.mp4"
+    },
+    {
+        "_id": 6,
+        "title": "Jujustu Kaisen",
+        "imgsrc": "data/Jujustsu_kaisen.jpg",
+        "vidsrc": "data/jujustsu_kaisen.mp4"
+    },
+    {
+        "_id": 7,
+        "title": "LOKII!!",
+        "imgsrc": "data/loki.jpg",
+        "vidsrc": "data/loki.mp4"
+    },
+    {
+        "_id": 8,
+        "title": "Jujustu kaisen kaisen",
+        "imgsrc": "data/Jujustu_kaisen_kaisen.jpg",
+        "vidsrc": "data/Jujustu_kaisen_kaisen.mp4"
+    },
+    {
+        "_id": 9,
+        "title": "Naruto",
+        "imgsrc": "data/Naruto.jpg",
+        "vidsrc": "data/naruto.mp4"
+    },
+    {
+        "_id": 10,
+        "title": "Oppenheimer...",
+        "imgsrc": "data/Oppenheimer.jpg",
+        "vidsrc": "data/oppenheimer.mp"
+    },
+    {
+        "_id": 11,
+        "title": "Spiderman into the Spider-Verse",
+        "imgsrc": "data/Spiderman_into_the_Spider_verse.jpg",
+        "vidsrc": "data/spiderman_into_the_spider_verse.mp4"
+    },
+    {
+        "_id": 12,
+        "title": "SpyderMan",
+        "imgsrc": "data/Spyderman.jpg",
+        "vidsrc": "data/spyderman.mp4"
+    },
+    {
+        "_id": 13,
+        "title": "Stranger things",
+        "imgsrc": "data/Stranger_things.jpg",
+        "vidsrc": "data/stranger_things.mp4"
+    },
+    {
+        "_id": 14,
+        "title": "Tokyo Drift",
+        "imgsrc": "data/Tokyo_drift.jpg",
+        "vidsrc": "data/tokyo_drift.mp4"
+    },
+    {
+        "_id": 15,
+        "title": "Marvel's",
+        "imgsrc": "data/Marvel.jpg",
+        "vidsrc": "data/marvel.mp4"
+    }
+]

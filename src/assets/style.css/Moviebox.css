@@ -1,0 +1,105 @@
+.grid-container{
+  display: block;
+}
+
+.Moviebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 1vw;
+    
+     
+}
+
+.movie{
+    display: block;
+    margin-left: 1vw;
+    width: max-content;
+    margin-right: 10px;
+     border-radius: 6px; 
+}
+
+
+ .thumbnail{
+    object-fit: contain;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 6px;
+    object-fit: fill;
+     overflow: hidden; 
+    
+} 
+
+.movie-title{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+@media (max-width:780px) {
+    .Moviebox{
+        display: block;
+        width: 40vw;
+        height: 40vh;
+        margin-left: 1vw;
+       
+         
+    } 
+    .movie{ 
+         width: max-content;
+         display: block; 
+        margin-left: 4vw;
+        border-radius: 5px;  
+        margin-right: 25px; 
+         border-radius: 6px; 
+         height: 30vh;
+         margin-bottom: 0%;
+         margin-top: 0%;
+    }
+
+    .thumbnail{
+         object-fit: contain; 
+        width: 42vw;
+        height: 30vh;
+        border-radius: 6px; 
+         object-fit: fill; 
+         overflow: hidden; 
+        
+    } 
+}
+
+
+
+@media (max-width:480px) {
+    .Moviebox{
+        
+        width: 80vw;
+        height: 40vh; 
+        
+         
+    } 
+    .movie{
+          background-color: rgb(56, 199, 12); 
+          width: 80vw;
+          height:40vh ; 
+        margin-left: 7vw;
+        border-radius: 5px;  
+        margin-right: 25px; 
+        margin-bottom: 100px;
+         border-radius: 6px; 
+         
+    }
+
+    .thumbnail{
+        width: 80vw;
+        height:40vh ; 
+        /* margin-bottom: 100px;  */
+        border-radius: 6px; 
+         overflow: hidden; 
+        
+    } }

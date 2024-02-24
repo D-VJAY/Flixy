@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.Trending-main{
+    display: grid;
+    width: 100%;
+     background-color: #0f0828; 
+    padding-top: 10vh; 
+    
+}
+
+.grid-container{
+     
+     grid-template-columns: 30vw 30vw 30vw;
+     grid-template-rows: 30vw 30vw 30vw; 
+     width:100%;   
+      background-color: #0f0828;   
+     
+    }
+
+    
+     
+
+    .Data{
+    margin: 2vh 1vw; 
+    width: 30%;
+    display: inline-block;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    
+}
+
+@media  (max-width:780px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns:45vw 45vw;
+        grid-template-rows: 60vw 60vw; 
+         width:100%;     
+         background-color: #0f0828;    
+        
+       }
+}
+
+@media  (max-width:480px) {
+    .grid-container{
+        
+    
+         display: grid; 
+         grid-template-columns:80vw ; 
+        grid-gap: 5vw;
+         grid-template-rows: 60vw ;  
+         width:100%;     
+         background-color: #0f0828;    
+        
+       }
+
+       
+.buttons{
+    /* display: block; */
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 200px;
+    
+}
+}
+
