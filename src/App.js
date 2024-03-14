@@ -9,11 +9,10 @@ import Videoplayer from '../src/components/Videoplayer';
 function App  ()  {
   return (
     <div>
-      <BrowserRouter basename='/flixy'>     
-      <Navigation/>
-      
+      <BrowserRouter basename='/Flixy'>     
+      <Navigation/> 
         <Routes>
-            <Route path="/flixy" element={<Home/>}/>
+            <Route path="/Flixy" element={<Home/>}/>
             <Route path="/watchlater" element={<Watchlater/>}/>
             <Route path="/trending" element={<Trending/>}/>
             <Route path="/playit" element={<Videoplayer/>}/>
