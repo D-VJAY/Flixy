@@ -1,29 +1,29 @@
-* {
+*{
   margin: 0%;
   padding: 0%;
 }
 
-.Trending-main {
+.Trending-main{
   display: grid;
   width: 100%;
   background-color: #0f0828;
   padding-top: 10vh;
 }
 
-.grid-container {
+.grid-container{
   grid-template-columns: 30vw 30vw 30vw;
   grid-template-rows: 30vw 30vw 30vw;
   width: 100%;
   background-color: #0f0828;
 }
 
-.Data {
+.Data{
   margin: 2vh 1vw;
   width: 30%;
   display: inline-block;
 }
 
-.buttons {
+.buttons{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@
     background-color: #0f0828;
   }
 
-  .buttons {
+  .buttons{
     display: flex;
     align-items: center;
     justify-content: center;
