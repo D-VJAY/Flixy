@@ -1,4 +1,4 @@
-.navouter {
+.navouter{
   display: block;
   width: 100%;
   margin: 0%;
@@ -12,29 +12,29 @@
   margin: 0px;
 }
 
-.logo {
+.logo{
   background-color: white;
   height: 60px;
   margin-top: 15px;
   width: 200px;
 }
 
-.navigation {
+.navigation{
   display: flex;
   width: 100%;
   justify-content: flex-end;
 }
 
-.search {
+.search{
   display: flex;
   justify-content: center;
 }
 
-.nav-inner {
+.nav-inner{
   display: flex;
 }
 
-.nab {
+.nab{
   list-style: none;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
   padding: 0px;
 }
 
-.link {
+.link{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100px;
   background-color: red;
@@ -58,7 +58,8 @@
   font-stretch: expanded;
   font-weight: bold;
 }
-.link:hover {
+
+.link:hover{
   background-color: black;
   color: white;
   cursor: pointer;
