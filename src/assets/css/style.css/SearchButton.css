@@ -1,13 +1,13 @@
-.navlink {
+.navlink{
   text-decoration: none;
 }
 
-.linky {
+.linky{
   text-decoration: none;
   list-style: none;
 }
 
-.search {
+.search{
   width: 55px;
   text-decoration: none;
   cursor: pointer;
@@ -21,7 +21,7 @@
   z-index: 50;
 }
 
-.search:hover {
+.search:hover{
   background-color: aliceblue;
   color: black;
 }
