@@ -1,5 +1,8 @@
 # FLI-XY (an OTT Platform)
 
+##NOTE:
+Try to view it in a desktop/pc
+
 **Checkout now-->**
 https://dynamic-conkies-f0e226.netlify.app
 
@@ -8,7 +11,7 @@ https://dynamic-conkies-f0e226.netlify.app
 
 
 ## About this project
-FLI-XY which is an OTT platform ,is my first sort of full-Stack MERN project.
+FLI-XY is an OTT platform.
 
 The idea behind this project is to create a free to use OTT platform , So that anyone can access it form any where.
 
