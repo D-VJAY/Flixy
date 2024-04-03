@@ -1,6 +1,6 @@
 # FLI-XY (an OTT Platform)
 
-## NOTE:
+**NOTE:**
 Try to view it in a desktop/pc
 
 **Checkout now-->**
