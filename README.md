@@ -22,7 +22,7 @@ Also there is no need to create an account for the user to use it,So it will not
 ## How to Start this Project
 
 
-**1**.Then open another terminal in the VsCode
+**1**.open  terminal in the VsCode Or any other coding environment
 come inside the following directory "Myproject\flixy\my-app>"
 
 **2**.Run the following command-
