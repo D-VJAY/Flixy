@@ -15,7 +15,7 @@ FLI-XY is an OTT platform.
 
 The idea behind this project is to create a free to use OTT platform , So that anyone can access it form any where.
 
-Also there is no need to create an account for the user to use it,So it will not be an hassle for the one's who is not very good at using technologies.
+Also there is no need to create an account for the user to use it,So it will be hassle free task or the one's who is not very good at using technologies.
 
 ---
 
