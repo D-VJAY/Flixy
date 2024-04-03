@@ -4,34 +4,35 @@ import '../assets/style.css/Trending.css'
 import Moviebox from "./Moviebox";
 import Button from "./Button";
 import Playbutton from "./Playbutton";
-import axios from "axios";
-import { useState, useEffect } from "react";
+import data from '../Data/data.json'
+// import axios from "axios";
+// import { useState, useEffect } from "react";
 
 
 function Trending() {
   // Data is incoming from the DB Via Express.js and with the help of Axios
-  async function getdata() {
-    try {
-      const response = await axios.get("http://localhost:5000/data");
-      return response.data; // Return the data
-    } catch (err) {
-      console.log(err, "error hai");
-      return null; // Return null or handle the error as needed
-    }
-  }
+  // async function getdata() {
+  //   try {
+  //     const response = await axios.get("http://localhost:5000/data");
+  //     return response.data; // Return the data
+  //   } catch (err) {
+  //     console.log(err, "error hai");
+  //     return null; // Return null or handle the error as needed
+  //   }
+  // }
 
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await getdata();
-      if (result) {
-        return setData(result);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const result = await getdata();
+  //     if (result) {
+  //       return setData(result);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
   return (
     <div className="Trending-main"> 
         <div className="grid-container">

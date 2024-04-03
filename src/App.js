@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes,Route, HashRouter } from 'react-router-dom';
+import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Navigation from '../src/components/Navigation';
 import Home from '../src/components/Home';
 import Watchlater from '../src/components/Watchlater';
@@ -9,7 +9,7 @@ import Videoplayer from '../src/components/Videoplayer';
 function App  ()  {
   return (
     <div>
-      <HashRouter>     
+      <BrowserRouter>     
       <Navigation/>
       
         <Routes>
@@ -18,7 +18,7 @@ function App  ()  {
             <Route path="/trending" element={<Trending/>}/>
             <Route path="/playit" element={<Videoplayer/>}/>
         </Routes>
-        </HashRouter>
+        </BrowserRouter>
         </div>
   )
 }

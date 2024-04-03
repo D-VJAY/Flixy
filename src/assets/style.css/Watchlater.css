@@ -11,8 +11,6 @@
     padding-top: 10vh; 
 }
 
-
-
  .boxA{ 
       grid-template-columns: 30vw 30vw 30vw;
       grid-template-rows: 30vw 30vw 30vw; 

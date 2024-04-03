@@ -2,21 +2,20 @@ import React from "react";
 import { useState } from "react";
 import '../assets/style.css/Searchbar.css'
 import SearchButton from "./searchButton";
+import data from '../Data/data.json'
 const Searchbar = () => {
   const [input, SetInput] = useState("");
-  const [data, SetData] = useState([]);
+  const [output, SetData] = useState([]);
   const [video,SetVideo] = useState('')
   const getdata = (value) => {
-    fetch("http://localhost:5000/data")
-      .then((response) => response.json())
-      .then((json) => {
-        const results = json.filter((data) => {
+   
+        const results = data.filter((data) => {
           // return value && data && 
          return value && data.title.toLowerCase().includes(value);
         });
         console.log(results);
         SetData(results);
-      });
+    
     
   };
   const HandleEvent = (value) => {
@@ -58,7 +57,7 @@ const SearchEvent =(data)=>{
          </div> 
 
         <div className="search-data">
-          {data.map((data) => {
+          {output.map((data) => {
             return (
               <div
               key={data._id}
